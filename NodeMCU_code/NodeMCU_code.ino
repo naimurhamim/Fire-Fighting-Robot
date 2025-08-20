@@ -2,10 +2,10 @@
 #include <WiFiClientSecure.h>
 
 // ---- WiFi & Telegram ----
-const char* ssid     = "Hamim";
-const char* password = "naim1526";
-String BOTtoken = "7088853958:AAHj0BK5aPeBAjPShUygN_6UkBr35v7HBII";
-String chat_id  = "8130473653";
+const char* ssid     = ""; //your wifi name
+const char* password = ""; // your wifi pass
+String BOTtoken = ""; // paste your bot token
+String chat_id  = ""; // paste your chat id
 
 // ---- Hardware ----
 #define FLAME_PIN A0
